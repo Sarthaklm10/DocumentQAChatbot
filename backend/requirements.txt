@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-dotenv
+python-multipart
+langchain
+langchain-community
+langchain-google-genai
+faiss-cpu
+pypdf
+ipykernel
+langchain_huggingface

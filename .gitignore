@@ -1,0 +1,39 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python / Pycache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment Variables & API Keys
+.env
+backend/.env
+frontend/.env
+
+# SQLite Database & Storage Data
+*.db
+backend/chatbot.db
+backend/data/uploads/*
+backend/data/vectorstore/*
+!backend/data/uploads/.gitkeep
+!backend/data/vectorstore/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
